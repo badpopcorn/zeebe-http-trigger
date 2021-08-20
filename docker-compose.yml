@@ -8,3 +8,5 @@ services:
     - ZEEBE_CLIENT_ID
     - ZEEBE_CLIENT_SECRET
     - APP_AUTH_HEADER_SECRET
+    ports:
+    - "3000:3000"
